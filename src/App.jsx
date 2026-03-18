@@ -5,6 +5,7 @@ import AWSEncyclopedia from "../AWS_Services_Encyclopedia.jsx";
 import CachingAndSystemDesign from "../Caching_SystemDesign_InfraDesign.jsx";
 import CloudOpsScenarios from "../Cloud_Ops_Scenario_Practice.jsx";
 import KubernetesCompleteGuide from "../Kubernetes_Complete_Guide.jsx";
+import AutoscalingScenarios from "../Autoscaling_Scenarios.jsx";
 
 const NOTES = [
   {
@@ -48,6 +49,13 @@ const NOTES = [
     icon: "☸️",
     subtitle: "Security, Networking, Monitoring",
     component: KubernetesCompleteGuide,
+  },
+  {
+    id: "autoscaling",
+    label: "Autoscaling Scenarios",
+    icon: "📈",
+    subtitle: "HPA, KEDA, CA, VPA incidents",
+    component: AutoscalingScenarios,
   },
 ];
 
