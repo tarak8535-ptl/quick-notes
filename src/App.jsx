@@ -4,6 +4,7 @@ import AWSComparisons from "../AWS_Service_Comparisons.jsx";
 import AWSEncyclopedia from "../AWS_Services_Encyclopedia.jsx";
 import CachingAndSystemDesign from "../Caching_SystemDesign_InfraDesign.jsx";
 import CloudOpsScenarios from "../Cloud_Ops_Scenario_Practice.jsx";
+import KubernetesCompleteGuide from "../Kubernetes_Complete_Guide.jsx";
 
 const NOTES = [
   {
@@ -40,6 +41,13 @@ const NOTES = [
     icon: "☁️",
     subtitle: "Hands-on practice",
     component: CloudOpsScenarios,
+  },
+  {
+    id: "kubernetes",
+    label: "Kubernetes Complete Guide",
+    icon: "☸️",
+    subtitle: "Security, Networking, Monitoring",
+    component: KubernetesCompleteGuide,
   },
 ];
 
@@ -172,7 +180,7 @@ export default function App() {
             flexShrink: 0,
           }}
         >
-          {NOTES.length} notes · tarak8535-ptl
+          {NOTES.length} notes · quick-notes
         </div>
       </aside>
 
